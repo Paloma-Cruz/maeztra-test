@@ -4,6 +4,7 @@
   "description": "Olá candidato, Este teste se divide em duas etapas, a primeira é um teste lógico onde iremos analisar a sua forma de pensar e como você lida com problemas abstratos. Os códigos dessa etapa devem ser feitos em Javascript, e não se esqueça de documentar todo o processo de cada resposta.",
   "main": "resposta_questao_1.js",
   "scripts": {
+    "postinstall": "npm install --prefix ./layout",
     "dev": "cd layout && vite",
     "build": "cd layout && tsc && vite build && cp -r ./src/assets/products/* ./dist/assets",
     "lint": "cd layout && eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
