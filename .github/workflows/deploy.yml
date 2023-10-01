@@ -47,13 +47,16 @@ jobs:
         run: cd layout && npm run build
       - name: Setup
         uses: actions/configure-pages@v3
+        with:
+          # Upload dist repository
+          path: './layout/dist'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
-          path: './dist'
+          path: './layout/dist'
       - name: Deploy to GitHub Pages
         with:
-          path: 'layout'
+          path: './layout/dist'
         id: deployment
         uses: actions/deploy-pages@v1
