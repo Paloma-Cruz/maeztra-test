@@ -38,9 +38,9 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          path: './layout'
           node-version: 18
           cache: 'npm'
+          cache-dependency-path: './layout/package-lock.json'
       - name: Install dependencies
         run: npm install
       - name: Build
