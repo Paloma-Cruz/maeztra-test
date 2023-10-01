@@ -1,0 +1,59 @@
+@import '../../utils/variables.scss';
+
+.container_shelf{
+    .larg_container_shelf{
+        width: $larg-desktop;
+        margin: clamp(78px, 4.2vw, 80px) auto 0;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        @media only screen and (max-width: $mobile) {
+            width: 100%;
+        }
+
+        .title_shelf{
+            font-size: 32px;
+            color: $black;
+            font-weight: 700;
+            text-align: center;
+            margin: 0;
+        }
+
+        :global(.swiper){
+
+            :global(.swiper-button-prev){
+                left: 0%;
+                justify-content: flex-start;
+        
+                &::after{
+                    display: none;
+                }
+        
+                &::before{
+                    content: "";
+                    background-image: url("../../assets/icons/arrow-left.svg");
+                    width: 19px;
+                    height: 32px;
+                }
+            }
+        
+        
+            :global(.swiper-button-next){
+                right: 0;
+                justify-content: flex-end;
+        
+                &::after{
+                    display: none;
+                }
+        
+                &::before{
+                    content: "";
+                    background-image: url("../../assets/icons/arrow-right.svg");
+                    width: 19px;
+                    height: 32px;
+                }
+            }
+        }
+    }
+}

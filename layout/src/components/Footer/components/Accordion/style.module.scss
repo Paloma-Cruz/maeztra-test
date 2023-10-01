@@ -1,0 +1,38 @@
+@import '../../../../utils/variables.scss';
+
+.container_accordion{
+    width: $larg-mobile;
+    margin: auto;
+    
+    .accordion_panel{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+        .title_panel{
+            color: $black;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .activate_accordion{
+            color: $black;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+    .accordion{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+
+        .link_accordion{
+            color: $black;
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+}

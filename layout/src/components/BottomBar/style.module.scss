@@ -1,0 +1,115 @@
+@import '../../utils/variables.scss';
+
+.container_bottom_bar{
+    background-color: $black;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: $mobile) {
+        height: 233px;
+    }
+
+    .container_larg_bottom_bar{
+        width: $larg-desktop;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media only screen and (max-width: $mobile) {
+            flex-direction: column;
+            gap: 36px;
+        }
+
+        .container_social_networks{
+            display: flex;
+            gap: 22px;
+            align-items: center;
+
+            @media only screen and (max-width: $mobile) {
+                gap: 24px;
+            }
+
+            .link_social_network{
+                display: flex;
+                align-items: center;
+
+                .image_social_network{
+                    width: clamp(28px, 1.65vw, 32px);
+
+                    @media only screen and (max-width: $mobile) {
+                        width: 100%;
+                        max-width: 32px;
+                    }
+                }
+            }
+        }
+
+        .container_forms_payment{
+            display: flex;
+            gap: 22px;
+
+            @media only screen and (max-width: $mobile) {
+                gap: 24px;
+            }
+
+            .item_form_payment{
+                width: clamp(28px, 1.65vw, 32px);
+
+                @media only screen and (max-width: $mobile) {
+                    width: 100%;
+                    max-width: 32px;
+                }
+            }
+        }
+
+        .container_developed{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .powered_by{
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+
+                .text{
+                    font-size: 10px;
+                    color: $white-1;
+                    font-weight: 400;
+                }
+
+                .vtex_image{
+                    width: 3.49vw;
+
+                    @media only screen and (max-width: $mobile) {
+                        width: 100%;
+                        max-width: 67px;
+                    }
+                }
+            }
+
+            .developed_by{
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+
+                .text{
+                    font-size: 10px;
+                    color: $white-1;
+                    font-weight: 400;
+                }
+                
+                .maeztra_image{
+                    width: 6.146vw;
+
+                    @media only screen and (max-width: $mobile) {
+                        width: 100%;
+                        max-width: 118px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+@import '../../../../utils/variables.scss';
+
+.container_product{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &:hover{
+        .container_image_product{
+            .image_product{
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    .container_image_product{
+        overflow: hidden;
+
+        .image_product{
+            width: 100%;
+            transition: .5s all;
+
+            @media only screen and (max-width: $mobile) {
+                transform: none !important;
+            }
+        }
+    }
+
+    .container_info_product{
+        flex: 1;
+        padding: 8px clamp(25px, 1.4vw, 27px) clamp(14px, 0.82vw, 16px);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        @media only screen and (max-width: $mobile) {
+            padding: 8px 27px 16px;
+        }
+
+        .variations_color{
+            display: flex;
+            justify-content: flex-start;
+            gap: 4px;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+
+            .container_color{
+                width: clamp(25px, 1.4vw, 27px);
+                height: clamp(25px, 1.4vw, 27px);
+                border-radius: 8px;
+
+                @media only screen and (max-width: $mobile) {
+                    width: 27px;
+                    height: 27px;
+                }
+            }
+        }
+
+        .price{
+            font-size: clamp(18px, 1.042vw, 20px);
+            color: $black;
+            font-weight: 700;
+            margin-bottom: 2px;
+            text-align: left;
+
+            @media only screen and (max-width: $mobile) {
+                font-size: 20px;
+            }
+        }
+
+        .name {
+            font-size: clamp(14px, 0.82vw, 16px);
+            font-weight: 400;
+            color: $black;
+            margin-bottom: 8px;
+            text-align: left;
+
+            @media only screen and (max-width: $mobile) {
+                font-size: 16px;
+            }
+        }
+
+        .description {
+            font-size: clamp(10px, 0.625vw, 12px);
+            font-weight: 400;
+            color: $black;
+            opacity: 0.5;
+            margin-bottom: 8px;
+            text-align: left;
+            flex: 1;
+
+            @media only screen and (max-width: $mobile) {
+                font-size: 12px;
+            }
+        }
+
+        .add_cart {
+            height: 35px;
+            border-radius: 4px;
+            background-color: $orange;
+            color: $white-1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: clamp(14px, 0.82vw, 16px);
+            color: $white-1;
+            font-weight: 400;
+            width: 100%;
+
+            @media only screen and (max-width: $mobile) {
+                font-size: 16px;
+            }
+        }
+    }
+}

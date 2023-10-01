@@ -1,0 +1,29 @@
+@import '../../../../utils/variables.scss';
+
+.loader {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    margin:15px auto;
+    position: relative;
+    background: $white-1;
+    box-shadow: -24px 0 $white-1, 24px 0 $white-1;
+    box-sizing: border-box;
+    animation: shadowPulse 2s linear infinite;
+}
+  
+@keyframes shadowPulse {
+    33% {
+      background: $white-1;
+      box-shadow: -24px 0 $black, 24px 0 $yellow;
+    }
+    66% {
+      background: $black;
+      box-shadow: -24px 0 $white-1, 24px 0 $yellow;
+    }
+    100% {
+      background: $black;
+      box-shadow: -24px 0 $yellow, 24px 0 $white-0;
+    }
+}

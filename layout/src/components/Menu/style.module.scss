@@ -1,0 +1,72 @@
+@import '../../utils/variables.scss';
+
+.container_menu {
+    background-color: $white-1;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: $mobile) {
+        height: auto;
+    }
+
+    .larg_menu{
+        width: $larg-desktop;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        @media only screen and (max-width: $mobile) {
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .link_menu{
+            width: 146px;
+            color: $black;
+            font-size: clamp(12px, 0.73vw, 14px);
+            font-weight: 400;
+            text-align: center;
+
+            @media only screen and (max-width: $mobile){
+                text-align: left;
+                width: 100%;
+                padding: 0 24px;
+                box-sizing: border-box;
+                font-size: 14px;
+            }
+        }
+
+        .link_menu_highlights{
+            color: $orange;
+            font-size: clamp(12px, 0.73vw, 14px);
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            width: 146px;
+
+            @media only screen and (max-width: $mobile){
+                justify-content: flex-start;
+                width: 100%;
+                padding: 0 24px;
+                box-sizing: border-box;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.drawer_menu{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .icon{
+        width: 100%;
+        max-width: 32px;
+    }
+}

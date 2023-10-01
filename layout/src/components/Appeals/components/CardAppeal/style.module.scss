@@ -1,0 +1,57 @@
+@import '../../../../utils/variables.scss';
+
+.container_item_appeal{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    background-color: $white-2;
+    width: 100%;
+    padding: 11px clamp(25px, 1.4vw, 27px) 14px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    @media only screen and (max-width: $mobile) {
+        padding: 11px 19px 14px 26px;
+        gap: 21px;
+    }
+
+    .container_item_icon{
+
+        .icon{
+            width: clamp(28px, 1.65vw, 32px);
+
+            @media only screen and (max-width: $mobile){
+                width: 32px;
+            }
+        }
+    }
+
+    .container_text_item_appeal{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+
+        .item_appeal_title{
+            margin: 0;
+            font-size: clamp(12px, 0.73vw, 14px);
+            color: $black;
+            font-weight: 700;
+
+            @media only screen and (max-width: $mobile){
+                font-size: 14px;
+            }
+        }
+
+        .item_appeal_text{
+            margin: 0;
+            font-size: clamp(10px, 0.625vw, 12px);
+            color: $black;
+            font-weight: 400;
+            text-align: left;
+
+            @media only screen and (max-width: $mobile){
+                font-size: 12px;
+            }
+        }
+    }
+}

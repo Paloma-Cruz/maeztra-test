@@ -1,0 +1,22 @@
+@import './utils/variables.scss';
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: $white-0;
+
+  @media only screen and (max-width: $mobile) {
+    background-color: $white-1;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+input {
+  font-family: 'Titillium Web', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}

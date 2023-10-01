@@ -1,0 +1,40 @@
+@import '../../utils/variables.scss';
+
+.container_brands{
+    .larg_container_brands{
+        width: $larg-desktop;
+        margin: clamp(72px, 3.85vw, 74px) auto 0;
+        display: flex;
+        flex-direction: column;
+        gap: clamp(14px, 0.82vw, 16px);
+
+        @media only screen and (max-width: $mobile) {
+            margin: 40px auto 0;
+            gap: 25px;
+            width: 100%;
+        }
+
+        .title_brands{
+            font-size: clamp(30px, 1.65vw, 32px);
+            color: $black;
+            font-weight: 700;
+            text-align: center;
+            margin: 0;
+
+            @media only screen and (max-width: $mobile) {
+                font-size: 24px;
+            }
+        }
+
+        .brand_image{
+            width: 100%;
+        }
+
+        .list_brands{
+            display: grid;
+            grid-auto-columns: minmax(0, 1fr);
+            grid-auto-flow: column;
+            gap: 15px;
+        }
+    }
+}

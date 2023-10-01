@@ -1,0 +1,46 @@
+@import '../../../../utils/variables.scss';
+
+.container_search{
+    position: relative;
+    max-width: 41.198vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+    .input{
+        background-color: $white-2;
+        height: clamp(38px, 2.084vw, 40px);
+        border-radius: 8px;
+        border: none;
+        width: 100%;
+        padding: 15px 130px 15px 15px;
+        color: $black;
+        font-size: 12px;
+    }
+
+    .submit_search{
+        height: clamp(38px, 2.084vw, 40px);
+        border-radius: 8px;
+        background-color: $orange;
+        border: none;
+        width: 16.704%;
+        color: $white-1;
+        font-size: clamp(12px, 0.73vw, 14px);
+        font-weight: 400;
+        position: absolute;
+        right: 0;
+    }
+}
+
+.search_mobile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+
+    .icon{
+        width: 100%;
+        max-width: 24px;
+    }
+}

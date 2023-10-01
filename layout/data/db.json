@@ -1,0 +1,324 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Faux Suede Mini Skirt",
+            "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+            "price": 59.9,
+            "skus": [
+                {
+                    "skuId": 1,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#DEAC71"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 2,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#D37164"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 3,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#6497D3"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 4,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#3C3B79"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Ruched Rose Print Mini Skirt",
+            "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+            "price": 320.0,
+            "skus": [
+                {
+                    "skuId": 1,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#1C1A19"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 2,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#D84E4B"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 3,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#CFC9B0"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 4,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#EAE9E5"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Faux Suede Mini Skirt",
+            "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+            "price": 59.9,
+            "skus": [
+                {
+                    "skuId": 1,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#DEAC71"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 2,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#D37164"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 3,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#6497D3"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 4,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#3C3B79"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Ruched Rose Print Mini Skirt",
+            "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+            "price": 320.0,
+            "skus": [
+                {
+                    "skuId": 1,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#1C1A19"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 2,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#D84E4B"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 3,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#CFC9B0"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 4,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#EAE9E5"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Faux Suede Mini Skirt",
+            "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+            "price": 59.9,
+            "skus": [
+                {
+                    "skuId": 1,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#DEAC71"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 2,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#D37164"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 3,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#6497D3"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 4,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#3C3B79"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Ruched Rose Print Mini Skirt",
+            "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+            "price": 320.0,
+            "skus": [
+                {
+                    "skuId": 1,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#1C1A19"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 2,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#D84E4B"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 3,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#CFC9B0"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 4,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#EAE9E5"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Faux Suede Mini Skirt",
+            "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+            "price": 59.9,
+            "skus": [
+                {
+                    "skuId": 1,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#DEAC71"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 2,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#D37164"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 3,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#6497D3"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                },
+                {
+                    "skuId": 4,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#3C3B79"
+                    }],
+                    "image": "../src/assets/products/product-01.png"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Ruched Rose Print Mini Skirt",
+            "description": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+            "price": 320.0,
+            "skus": [
+                {
+                    "skuId": 1,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#1C1A19"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 2,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#D84E4B"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 3,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#CFC9B0"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                },
+                {
+                    "skuId": 4,
+                    "variations": [{
+                        "name": "Color",
+                        "value": "#EAE9E5"
+                    }],
+                    "image": "../src/assets/products/product-02.png"
+                }
+            ]
+        }
+    ]
+}

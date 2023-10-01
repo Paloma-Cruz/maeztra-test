@@ -1,0 +1,27 @@
+@import '../../utils/variables.scss';
+
+.container_overlay_drawer{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.70);
+    z-index: 9;
+    transition: .3s all;
+
+    .container_drawer{
+        width: 100%;
+        max-width: 300px;
+        height: 100%;
+        background-color: $white-1;
+        transition: .3s all;
+
+        .close_drawer{
+            display: block;
+            text-align: end;
+            padding: 20px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+    }
+}
