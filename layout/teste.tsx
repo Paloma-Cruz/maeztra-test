@@ -1,1 +1,0 @@
-import './src/assets/products/product-01.png'
