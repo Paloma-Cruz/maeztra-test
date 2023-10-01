@@ -42,9 +42,9 @@ jobs:
           cache: 'npm'
           cache-dependency-path: '**/package-lock.json'
       - name: Install dependencies
-        run: npm install
+        run: cd layout && npm install
       - name: Build
-        run: npm run build
+        run: cd layout && npm run build
       - name: Setup
         uses: actions/configure-pages@v3
       - name: Upload artifact
