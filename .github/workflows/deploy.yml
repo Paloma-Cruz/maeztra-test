@@ -31,8 +31,6 @@ jobs:
       run:
         working-directory: 'layout'
     steps:
-      - name: GOTO path
-        run: cd ./layout
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -53,9 +51,9 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
-          path: ./layout/dist
+          path: layout/dist
       - name: Deploy to GitHub Pages
         with:
-          path: './layout/dist'
+          path: 'layout/dist'
         id: deployment
         uses: actions/deploy-pages@v1
