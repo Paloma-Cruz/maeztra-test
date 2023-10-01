@@ -32,7 +32,7 @@ jobs:
         working-directory: './layout'
     steps:
       - name: GOTO path
-        run: cd layout
+        run: cd ./layout
       - name: Checkout
         uses: actions/checkout@v3
         with:
