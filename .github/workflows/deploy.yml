@@ -51,9 +51,9 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
-          path: './layout/dist'
+          path: 'layout/dist'
       - name: Deploy to GitHub Pages
         with:
-          path: ./layout
+          path: 'layout'
         id: deployment
         uses: actions/deploy-pages@v1
