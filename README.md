@@ -19,14 +19,14 @@ Para executar o Teste de Layout basta rodar **npm install** e depois **npm run d
 
 # Autor
 Esse projeto foi desenvolvido por **Paloma da Cruz**, desenvolvedora Front End, com 3 anos de experiência com foco no desenvolvimento de ecommerce utilizando as tecnologias React e VTEX IO. Tenho como portifólio grandes lojas como:
-**Vitivinícola Jolimont: https://www.vinhosjolimont.com.br/**
-**Imporium: https://www.lojasimporium.com.br/**
-**Horus Acabamentos: https://www.horusacabamentos.com.br/**
-**Visual Jeans: https://www.visualjeans.com.br/**
+- **Vitivinícola Jolimont: https://www.vinhosjolimont.com.br/**
+- **Imporium: https://www.lojasimporium.com.br/**
+- **Horus Acabamentos: https://www.horusacabamentos.com.br/**
+- **Visual Jeans: https://www.visualjeans.com.br/**
 
 Aqui estão os meus contatos. Estou disponível para sanar qualquer dúvida.
-E-mail: **palomacruzperes@hotmail.com**
-Telefone: **(+351) 937 821 016**
+- E-mail: **palomacruzperes@hotmail.com**
+- Telefone: **(+351) 937 821 016**
 
 # Desafio Maeztra
 Olá candidato,
